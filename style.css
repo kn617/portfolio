@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* top */
+#top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin-top: 30px;
+}
+#top h1{
+    font-family: 'Archivo Black', sans-serif;    position: absolute;
+    font-size: 180px;
+    color: #252525;
+    text-shadow:2px 2px 0 #FFF, -2px -2px 0 #FFF, 2px -2px 0 #FFF, -2px 2px 0 #FFF, 0px 2px 0 #FFF, 0 -2px 0 #FFF, -2px 0 0 #FFF, 2px 0 0 #FFF, -10px 10px 0 #777777, -20px 20px 0 #bdbdbd;
+}
+
+/* about */
+#about {
+    margin-top: 30px;
+    margin-bottom: 45px;
+}
+#about .b_box {
+    display: block;
+    background-color: #252525;
+    width: 500px;
+    padding: 10px;
+    margin: 0 auto;
+    box-shadow: -10px 10px #777777;
+}
+#about h2 {
+    text-align: center;
+    color: #FFF;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Archivo Black', sans-serif;
+}
+#about .profile {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#about .profile .face {
+    border-radius: 50%;
+    margin-right: 70px;
+}
+#about .profile .box1 {
+    margin-left: 70px;
+    margin:2em 0;
+    position: relative;
+    padding: 0.5em 1.5em;
+    border-top: solid 2px #252525;
+    border-bottom: solid 2px #252525;
+}
+.box1:before,.box1:after{ 
+    content: '';
+    position: absolute;
+    top: -10px;
+    width: 2px;
+    height: calc(100% + 20px);
+    background-color: #252525;
+}
+.box1:before{
+    left: 10px;
+}
+.box1:after{
+    right: 10px;
+}
+#about .profile p{
+    text-align: center;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 50px;
+}
+
+/* works */
+#works {
+    background-color: #252525;
+}
+#works .w_box {
+    display: block;
+    background-color: #FFF;
+    width: 500px;
+    padding: 10px;
+    margin: 50px auto;
+    box-shadow: -10px 10px #bdbdbd;
+    position: relative;
+    top: 50px;
+}
+#works h2 {
+    text-align: center;
+    color: #252525;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Archivo Black', sans-serif;
+}
+#works ul {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 90px;
+}
+#works  .w_box1{
+    display: block;
+    background-color: #FFF;
+    padding: 3rem;
+    margin: 2rem;
+}
+
+#works ul .fp .pic {
+    width: 50%;
+    height: 50%;
+    align-items: center;
+}
+#works ul .mv .pic {
+    width: 50%;
+    align-items: center;
+}
+
+/* skill */
+
+
+/* contact */
+#contact ul svg {
+    width: 50px;
+    height: 50%;
+}
+
