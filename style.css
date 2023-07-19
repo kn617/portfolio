@@ -113,16 +113,31 @@
     background-color: #FFF;
     padding: 3rem;
     margin: 2rem;
+    border-radius: 5%;
 }
 
 #works ul .fp .pic {
-    width: 50%;
-    height: 50%;
+    width: 60%;
+    height: 60%;
     align-items: center;
 }
 #works ul .mv .pic {
-    width: 50%;
+    width: 60%;
+    height: 60%;
     align-items: center;
+}
+#works .subtitle {
+    font-size: 1.5rem;
+}
+#works .icon {
+    margin-bottom: 20px;
+}
+#works a {
+    background-color: #252525;
+    color: #FFF;
+    font-size: 1.2rem;
+    padding: 1.5rem;
+    text-decoration: none;
 }
 
 /* skill */
