@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #252525;
+}
+h2 {
+    margin-top: 40px;
+    margin-bottom: 80px;
+    font-family: 'Archivo Black', sans-serif;    
+    text-align: center;
+    color: #fff;
+    font-size: 70px;
+}
+p {
+    color: #fff;
+    text-align: center;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+}
+.btn {
+    display: block;
+    position: relative;
+    width: 30px;
+    height: 30px;
+    border: 2px solid #fff; /* 枠の調整 */
+    background: #252525; /* ボタンの背景色 */
+    margin-top: 60px;
+    margin-left: 30px;
+  }
+   
+  .btn::before, .btn::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 3px; /* 棒の幅（太さ） */
+    height: 27px; /* 棒の高さ */
+    background: #fff; /* バツ印の色 */
+  }
+   
+  .btn::before {
+    transform: translate(-50%,-50%) rotate(45deg);
+  }
+   
+  .btn::after {
+    transform: translate(-50%,-50%) rotate(-45deg);
+  }
+  .time {
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  video {
+    width: 50%;
+    }
+  .video {
+    text-align: center;
+  }

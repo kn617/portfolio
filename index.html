@@ -14,8 +14,18 @@
     <!-- top -->
     <section id="top">
         <h1>PORTFOLIO</h1>
-        <img src="img/72172f0a7b5d8746f3e050b38479a008.jpg" alt="top">
+        <img src="img/about.jpg" alt="top">
     </section>
+    <!-- menu -->
+    <nav class="navbar">
+        <ul class="nav">
+          <li class="nav-item"><a href="#top">TOP</a></li>
+          <li class="nav-item"><a href="#about">ABOUT</a></li>
+          <li class="nav-item"><a href="#works">WORKS</a></li>
+          <li class="nav-item"><a href="#skill">SKILL</a></li>
+          <li class="nav-item"><a href="footer">CONTACT</a></li>
+        </ul>
+      </nav>
     <!-- about -->
     <section id="about">
         <div class="b_box"><h2>ABOUT</h2></div>
@@ -34,41 +44,56 @@
         <ul>
             <div class="fp">
                 <div class="w_box1">
-                    <div class="box">
-                    <img src="img/FirstPortfolio.JPEG" alt="" class="pic">
+                    
+                    <img src="img/FirstPortfolio.JPEG" width = "150" height = "150" alt="" class="pic">
                     <p class="subtitle">FirstPortfolio<br><br></p>
                     <img width="50" height="50" src="img/ai_icon.png" alt="" class="icon">
                     <img width="50" height="50" src="img/ps_icon.png" alt="" class="icon">
                     <p><br></p>
-                    <a href="#">VIEW MORE</a>
-                    </div>
+                    <a href="works-fp.html">VIEW MORE</a>
+                    
                 </div>
             </div>
             <div class="mv">
             <div class="w_box1">
-            <img src="img/MusicVideo.JPEG" alt="" class="pic">
-            <p class="subtitle">MusicVideo(青と夏)<br><br></p>
+            <img src="img/MusicVideo.JPEG" width = "150" height = "150"  alt="" class="pic">
+            <p class="subtitle">MusicVideo<br><br></p>
             <img width="50" height="50" src="img/dr_icon.jpg" alt="" class="icon">
             <p><br></p>
-            <a href="#">VIEW MORE</a>
+            <a href="works-mv.html">VIEW MORE</a>
             </div>
             </div>
         </ul>
     </section>
     <!-- skill -->
     <section id="skill">
-        <h2>SKILL</h2>
-        <div class="b_box"></div>
-            <ul>
-               <img width="50" height="50" src="https://img.icons8.com/ios/50/html.png" alt="html"/>
-               <img width="50" height="50" src="https://img.icons8.com/ios/50/css.png" alt="css"/> 
-               <img width="50" height="50" src="img/dr_icon.jpg" alt="davinci">
-               <img width="50" height="50" src="img/ps_icon.png" alt="photoshop">
+        
+        <div class="b_box"><h2>SKILL</h2></div>
+            <ul class="one">
+                <sectiom class="html">
+                    <img width="50" height="50" src="https://img.icons8.com/ios/50/html.png" alt="html"/>
+                    <p>★★★☆☆</p>
+                </sectiom>
+               <section class="css">
+                    <img width="50" height="50" src="https://img.icons8.com/ios/50/css.png" alt="css"/>
+                    <p>★★★☆☆</p> 
+               </section>
+            </ul>
+            <ul class="two">
+               <section class="davinci">
+                    <img width="50" height="50" src="img/dr_icon.jpg" alt="davinci">
+                    <p>★★★★☆</p>
+               </section>
+               <section class="ps">
+                    <img width="50" height="50" src="img/ps_icon.png" alt="photoshop">
+                    <p>★★★★☆</p>
+               </section>
+               
             </ul>
             
     </section>
     <!-- contact -->
-    <section id="contact">
+    <footer>
         <ul>
             <li class="insta"><a href="https://instagram.com/" target="_blank">
               <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" xml:space="preserve">
@@ -84,7 +109,7 @@
                 </g>
               </svg>  
             </a></li>
-            <li class="fb"><a href="https://facebook.com/" target="_blank">
+            <li class="fb"><a href="https://facebook.com/" target="_blank"></a>
               <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" xml:space="preserve">
                 <g>
                   <path class="st0" d="M483.758,0H28.242C12.641,0,0,12.637,0,28.238V483.68C0,499.359,12.641,512,28.242,512h219.679V340.957
@@ -98,6 +123,11 @@
                     h-73.855h-0.226l0,0h-0.16V512h146.878C499.359,512,512,499.359,512,483.68V28.238C512,12.637,499.359,0,483.758,0z"></path>
                 </g>
               </svg>
-    </section>
+            </li>
+        </ul>
+              <p class="copyright">
+                <small>&copy; 2023 KanieHaruna<br><br></small>
+              </p>
+    </footer>
 </body>
 </html>
