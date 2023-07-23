@@ -62,3 +62,16 @@ ul p {
   .time {
     margin-bottom: 20px;
   }
+
+  @media only screen and (max-width: 480px){
+    ul {
+        display: contents;
+    }
+    img {
+        margin: auto;
+        display: block;
+    }
+    h2 {
+        font-size: 50px;
+    }
+  }

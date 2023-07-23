@@ -97,8 +97,10 @@
     box-shadow: -10px 10px #bdbdbd;
     position: relative;
     top: 30px;
+    align-items: center;
 }
 #works h2 {
+    width: 100%;
     text-align: center;
     color: #252525;
     font-size: 100px;
@@ -268,10 +270,12 @@ footer .copyright {
     color: #777777;
   }
 
-  @media only screen and (max-width: 640px){
+  @media only screen and (max-width: 480px){
     #top h1 {
-        font-size: 70px;
+        width: 100%;
+        font-size: 50px;
         text-align: center;
+        text-shadow: 1px 1px 0 #FFF, -1px -1px 0 #FFF, 1px -1px 0 #FFF, -1px 1px 0 #FFF, 0px 1px 0 #FFF, 0 -1px 0 #FFF, -1px 0 0 #FFF, 1px 0 0 #FFF, -5px 5px 0 #777777, -10px 10px 0 #bdbdbd;
     }
     #top {
         height: 600px;
@@ -290,7 +294,9 @@ footer .copyright {
     }
     #about .profile .face {
         margin-top: 50px;
-        margin-left: 80px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
     }
     #works {
         padding-bottom: 10px;
@@ -299,10 +305,58 @@ footer .copyright {
         display: contents;    
     }
     #about h2 {
-        font-size: 80px;
+        font-size: 50px;
     }
     #about .b_box {
-        width: 420px;
+        width: 400px;
     }
-
+    #works h2 {
+        font-size: 50px;
+    }
+    #works .w_box {
+        width: 400px;
+    }
+    #skill h2 {
+        font-size: 50px;
+    }
+    #skill .b_box {
+        width: 400px;
+    }
+    #about .profile .face {
+        width: 300px;
+        height: 300px;
+    }
+    #about .profile p{
+        font-size: 25px;
+    }
+    #works .w_box {
+        margin: 60px auto;
+    }
+    #works ul .fp .pic {
+        width: 40%;
+        height: 40%;
+    }
+    #works ul .mv .pic {
+        width: 40%;
+        height: 40%;
+        align-items: center;
+    }
+    #works .subtitle {
+        font-size: 1.5rem;
+    }
+    #works a {
+        font-size: 15px;
+        width: 150px;
+    }
+    #works .icon {
+        width: 40px;
+        height: 40px;
+    }
+    #skill img {
+        width: 50px;
+        height: 50px;
+    }
+    #skill ul p {
+        font-size: 1.5rem;
+    }
   }
