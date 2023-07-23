@@ -268,8 +268,41 @@ footer .copyright {
     color: #777777;
   }
 
-  @media (max-width: 640px){
+  @media only screen and (max-width: 640px){
     #top h1 {
         font-size: 70px;
+        text-align: center;
     }
+    #top {
+        height: 600px;
+        background-color: #FFF;
+    }
+    #top img {
+        display: none;
+        background-color: #FFF;
+        object-fit: cover;
+    }
+    .navbar {
+        display: none;
+    }
+    #about .profile {
+        display: contents;
+    }
+    #about .profile .face {
+        margin-top: 50px;
+        margin-left: 80px;
+    }
+    #works {
+        padding-bottom: 10px;
+    }
+    #works ul {
+        display: contents;    
+    }
+    #about h2 {
+        font-size: 80px;
+    }
+    #about .b_box {
+        width: 420px;
+    }
+
   }
