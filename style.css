@@ -249,7 +249,7 @@ footer .copyright {
     position: fixed;
     right: -110px;
     list-style: none;
-    top: 650px;
+    top: 625px;
   }
   .navbar ul li {
     /* ナビゲーションメニュー同士の間隔を指定 */
@@ -362,3 +362,27 @@ footer .copyright {
   }
 
   /* javascript */
+  /* #about {
+
+    transform:translateY(50%);
+    opacity:0;
+    }
+    
+    
+    .huwa {
+    
+    animation:huwa 0.5s ease-in forwards;
+    }
+    
+    @keyframes huwa {
+    
+    to {
+    
+    transform:initial;
+    opacity:1;
+    }
+    
+    } */
+    
+    
+    
